@@ -81,15 +81,12 @@ Running your script should print, in order:
 
 ## Submission
 
-Work in VS Code. Push to your own permanent GitHub repository. Create a folder for this problem containing:
+Work in VS Code. 
 
 - `inventory.py` — your complete, runnable solution, including a `__main__` block producing everything above.
 - `writeup.md` — at least 50 words on how you structured `build_inventory`, and what you decided counts as a "failure."
 
 **One commit** with a clear, descriptive message, pushed to your GitHub repo.
-
-**Deadline:** `[INSTRUCTOR TO FILL IN]`
-**Late policy:** `[INSTRUCTOR TO FILL IN]`
 
 ## Before You Submit
 
