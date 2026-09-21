@@ -28,7 +28,7 @@ raw_lines = [
 | # | Rule | Points |
 |---|------|--------|
 | R1 | `TicketFormatError(Exception)` is defined and used for every rejection below. | 1 |
-| R2 | `parse_ticket_line(line)` splits on `"|"` and raises `TicketFormatError` if it doesn't get exactly 3 parts. | 1 |
+| R2 | `parse_ticket_line(line)` splits on "|" and raises `TicketFormatError` if it doesn't get exactly 3 parts. | 1 |
 | R3 | `parse_ticket_line(line)` raises `TicketFormatError` if the priority (lowercased) isn't one of `{"low", "medium", "high"}`. | 1 |
 | R4 | Tags are parsed into a **set** of lowercased, stripped strings (not a list). | 1 |
 | R5 | `parse_ticket_line` is decorated with a logging decorator that you write yourself, which uses `functools.wraps` so the wrapped function keeps its real `__name__`. | 2 |
