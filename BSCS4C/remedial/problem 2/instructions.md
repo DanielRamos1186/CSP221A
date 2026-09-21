@@ -83,15 +83,12 @@ Running your script should print, in order:
 
 ## Submission
 
-Work in VS Code. Push to your own permanent GitHub repository. Create a folder for this problem containing:
+Work in VS Code. 
 
 - `sensor_cleaner.py` — your complete, runnable solution.
 - `writeup.md` — at least 50 words explaining your two missing-value decisions (why drop for temperature, why fill for humidity) and why they count as "documented," not arbitrary.
 
 **One commit** with a clear, descriptive message, pushed to your GitHub repo.
-
-**Deadline:** `[INSTRUCTOR TO FILL IN]`
-**Late policy:** `[INSTRUCTOR TO FILL IN]`
 
 ## Before You Submit
 
