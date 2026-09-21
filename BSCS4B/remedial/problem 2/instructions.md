@@ -89,9 +89,6 @@ Work in VS Code.
 
 **One commit** with a clear, descriptive message, pushed to your GitHub repo.
 
-**Deadline:** `[INSTRUCTOR TO FILL IN]`
-**Late policy:** `[INSTRUCTOR TO FILL IN]`
-
 ## Before You Submit
 
 - [ ] Runs top to bottom without errors (`python package_cleaner.py`).
