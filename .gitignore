@@ -1,0 +1,6 @@
+# Instructor-only answer keys — never commit these to a student-facing repo
+answer_key.py
+
+__pycache__/
+*.pyc
+.DS_Store
