@@ -78,15 +78,12 @@ Running your script should print, in order:
 
 ## Submission
 
-Work in VS Code. Push to your own permanent GitHub repository. Create a folder for this problem containing:
+Work in VS Code. 
 
 - `battery_cycle_tracker.py` — your complete, runnable solution.
 - `writeup.md` — at least 50 words explaining why your averages/flags count as "vectorized," and what would break that if you weren't careful.
 
 **One commit** with a clear, descriptive message, pushed to your GitHub repo.
-
-**Deadline:** `[INSTRUCTOR TO FILL IN]`
-**Late policy:** `[INSTRUCTOR TO FILL IN]`
 
 ## Before You Submit
 
