@@ -82,7 +82,7 @@ Running your script should print, in order:
 
 ## Submission
 
-Work in VS Code. Push to your own permanent GitHub repository. Create a folder for this problem containing:
+Work in VS Code. 
 
 - `training_log_auditor.py` — your complete, runnable solution.
 - `writeup.md` — at least 50 words explaining how you decided a row counts as a "failure" (dropped) versus just messy-but-fixable.

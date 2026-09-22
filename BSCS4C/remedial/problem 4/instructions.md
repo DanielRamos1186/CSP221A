@@ -28,7 +28,7 @@ raw_lines = [
 | # | Rule | Points |
 |---|------|--------|
 | R1 | `TicketFormatError(Exception)` is defined and used for every rejection below. | 1 |
-| R2 | `parse_ticket_line(line)` splits on `"|"` and raises `TicketFormatError` if it doesn't get exactly 3 parts. | 1 |
+| R2 | `parse_ticket_line(line)` splits on the line between each column (e.g. between T005 and high) and raises `TicketFormatError` if it doesn't get exactly 3 parts. | 1 |
 | R3 | `parse_ticket_line(line)` raises `TicketFormatError` if the priority (lowercased) isn't one of `{"low", "medium", "high"}`. | 1 |
 | R4 | Tags are parsed into a **set** of lowercased, stripped strings (not a list). | 1 |
 | R5 | `parse_ticket_line` is decorated with a logging decorator that you write yourself, which uses `functools.wraps` so the wrapped function keeps its real `__name__`. | 2 |
@@ -78,15 +78,12 @@ Running your script should print, in order:
 
 ## Submission
 
-Work in VS Code. Push to your own permanent GitHub repository. Create a folder for this problem containing:
+Work in VS Code. 
 
 - `ticket_triage.py` — your complete, runnable solution.
 - `writeup.md` — at least 50 words on why you chose a generator for `clean_tickets` instead of returning a list, and what counts as a "malformed" line in your solution.
 
 **One commit** with a clear, descriptive message, pushed to your GitHub repo.
-
-**Deadline:** `[INSTRUCTOR TO FILL IN]`
-**Late policy:** `[INSTRUCTOR TO FILL IN]`
 
 ## Before You Submit
 

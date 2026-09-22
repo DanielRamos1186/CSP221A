@@ -78,7 +78,7 @@ Running your script should print, in order:
 
 ## Submission
 
-Work in VS Code. Push to your own permanent GitHub repository. Create a folder for this problem containing:
+Work in VS Code. 
 
 - `volunteer_signups.py` — your complete, runnable solution.
 - `writeup.md` — at least 50 words on why you chose a generator for `clean_signups` instead of returning a list, and what counts as a "malformed" line in your solution.

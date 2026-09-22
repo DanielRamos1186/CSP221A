@@ -81,7 +81,7 @@ Running your script should print, in order:
 
 ## Submission
 
-Work in VS Code. Push to your own permanent GitHub repository. Create a folder for this problem containing:
+Work in VS Code.
 
 - `library_catalog.py` — your complete, runnable solution, including a `__main__` block producing everything above.
 - `writeup.md` — at least 50 words on how you structured `build_catalog`, and what you decided counts as a "failure."
