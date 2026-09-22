@@ -88,9 +88,6 @@ Work in VS Code. Push to your own permanent GitHub repository. Create a folder f
 
 **One commit** with a clear, descriptive message, pushed to your GitHub repo.
 
-**Deadline:** `[INSTRUCTOR TO FILL IN]`
-**Late policy:** `[INSTRUCTOR TO FILL IN]`
-
 ## Before You Submit
 
 - [ ] Runs top to bottom without errors (`python library_catalog.py`).
